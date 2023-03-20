@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     function CToF(C){
+       let F=9/5*C+32
+       return F;
+     }
+     function CToK(C){
+        let K=C+273.15
+        return K;
+     }
+     let C=parseInt(prompt("Nhập C: "));
+     document.write(C+"C"+"="+CToF(C)+"F");
+     document.write("<br>")
+     let K;
+     document.write(C+"C"+"="+CToK(C)+"K");
+
+    </script>
+</body>
+</html>
